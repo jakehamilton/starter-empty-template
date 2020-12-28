@@ -1,6 +1,6 @@
 const path = require("path");
 
-const getQuestions = ({ name, where }) => ([
+const getQuestions = ({ name, where }) => (console.log(name, where), [
     {
         type: "input",
         name: "package.name",
